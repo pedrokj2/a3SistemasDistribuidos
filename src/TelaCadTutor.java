@@ -134,7 +134,7 @@ public class TelaCadTutor extends javax.swing.JInternalFrame {
 
         jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder("Selecionar Imagem"));
 
-        jLabel7.setText("Foto Cliente");
+        jLabel7.setText("Foto Tutor(a)");
 
         botaoProcurar.setText("Procurar");
         botaoProcurar.addActionListener(new java.awt.event.ActionListener() {
@@ -209,13 +209,13 @@ public class TelaCadTutor extends javax.swing.JInternalFrame {
                                 .addComponent(jLabel6))
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addContainerGap()
-                                .addComponent(dataNascimentoInputText, javax.swing.GroupLayout.DEFAULT_SIZE, 122, Short.MAX_VALUE))
+                                .addComponent(dataNascimentoInputText))
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addContainerGap()
                                 .addComponent(telefoneInputText)))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 162, Short.MAX_VALUE)
                         .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(9, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(242, 242, 242)
                 .addComponent(botaoSalvar)
